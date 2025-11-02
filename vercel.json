@@ -6,12 +6,6 @@
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/src/server.js"
-    }
-  ],
   "env": {
     "NODE_ENV": "production",
     "CORS_ORIGIN": "*"
